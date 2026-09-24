@@ -75,7 +75,7 @@ app.post("/registros", novoRegistro);
 app.get("/registros", mostrarRegistro);
 app.put("/registros/:id", alterarRegistro);
 app.delete("/registros/:id", excluirRegistro);
-app.delete("/registro/:id", buscaRegistro);
+app.get("/registro/:id", buscaRegistro);
 
 app.listen(porta, () => {
     console.log(`Servidor: http://localhost:${porta}`)
