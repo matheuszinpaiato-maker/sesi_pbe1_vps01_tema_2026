@@ -58,6 +58,13 @@ const excluirRegistro = (req, res) => {
     }
 }
 
+const buscaRegistro = (req, res) => {
+    avaliaRegistros()
+    const registro = registros.find(p => p.id == Number(req.params.id))
+    if (registro) res.json(registro)
+    else res.status(404).json("Registro não encontrado")
+}
+
 const app = express()
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -68,6 +75,7 @@ app.post("/registros", novoRegistro);
 app.get("/registros", mostrarRegistro);
 app.put("/registros/:id", alterarRegistro);
 app.delete("/registros/:id", excluirRegistro);
+app.delete("/registro/:id", buscaRegistro);
 
 app.listen(porta, () => {
     console.log(`Servidor: http://localhost:${porta}`)
