@@ -22,13 +22,18 @@ npm run dev
 
 # Print dos testes e exemplos de requisições
 - CREATE
-
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/post.png">
+<br>
 - READ ALL
-
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/get-all.png">
+<br>
 - BUSCAR
 
+<br>
 - UPDATE
 
+<br>
 - DELETE
 
+<br>
 # Client
