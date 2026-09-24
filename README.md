@@ -34,7 +34,7 @@ npm run dev
 
 <br>
 - DELETE
-
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/delete.png">
 <br>
 # Client
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/client.png">
