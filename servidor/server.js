@@ -59,10 +59,23 @@ const excluirRegistro = (req, res) => {
 }
 
 const buscaRegistro = (req, res) => {
-    avaliaRegistros()
-    const registro = registros.find(p => p.id == Number(req.params.id))
-    if (registro) res.json(registro)
-    else res.status(404).json("Registro não encontrado")
+    const id = req.params.id
+    const dados = req.body
+    let status = 0
+
+    registros.forEach((registro, indice) => {
+        if (registro.id == id) {
+            dados.id = Number(id)
+            registros[indice] = dados
+            status = 1
+        }
+    })
+
+    if (status == 1) {
+        res.status(202).json(dados)
+    } else {
+        res.status(404).send("Registro não encontrado")
+    }
 }
 
 const app = express()
