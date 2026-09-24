@@ -27,8 +27,8 @@ npm run dev
 - READ ALL
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/get-all.png">
 <br>
-- BUSCAR
-
+- BUSCAR ID
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/get.png">
 <br>
 - UPDATE
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/update.png">
