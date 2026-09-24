@@ -1,1 +1,34 @@
 # sesi_pbe1_vps01_tema_2026
+# Rastreamento de consumo de energia especifico
+O SESI precisa de um sistema para registrar equipamentos ou locais e acompanhar consumo energético, identificando possíveis desperdícios.
+
+# Tecnologias
+- Node.sj
+- JavaScript
+- VsCode
+- VsCode Thunder Client
+
+# Passos para testar
+1 Clone este repositório
+<br>
+2 Abra com VsCode e em um terminal digite:
+```
+npm install
+npm run dev
+```
+3 Teste as rotas com a extensão Thunder Client do VsCode
+<br>
+4 Abra o arquivo client/index.html com a extensão Live Server do VsCode
+
+# Print dos testes e exemplos de requisições
+- CREATE
+
+- READ ALL
+
+- BUSCAR
+
+- UPDATE
+
+- DELETE
+
+# Client
