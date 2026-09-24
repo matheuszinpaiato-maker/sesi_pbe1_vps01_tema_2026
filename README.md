@@ -31,7 +31,7 @@ npm run dev
 
 <br>
 - UPDATE
-
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/update.png">
 <br>
 - DELETE
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_vps01_tema_2026/blob/main/prints/delete.png">
